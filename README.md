@@ -56,6 +56,11 @@ Convert the input image into grayscale format.
 Compare the results obtained from Global, Adaptive, and Otsu's thresholding methods.
 
 ## Program
+## Developed By
+
+## **Name:** DIVYA PRIYA S
+
+## **Register No:** 212225240037
 ```
 import cv2
 import numpy as np
@@ -90,11 +95,7 @@ adaptive_thresholded = cv2.adaptiveThreshold(gray_image, 255,
 # Apply Otsu's method for optimal thresholding
 _, otsu_thresholded = cv2.threshold(gray_image, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
 ```
-## Developed By
 
-**Name:** DIVYA PRIYA S
-
-**Register No:** 212225240037
 
 ## Output
 
